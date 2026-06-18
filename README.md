@@ -1,6 +1,6 @@
 <h1 align="center"> Projeto Conversor de moeda 💵: </h1>
 <br>
-<img src="https://github.com/brazyago7/PROJETO/blob/main/img/redme%20img.png?raw=true">
+<img src="https://www.flaticon.com/br/icone-gratis/conversao-de-moeda_10826388">
 <br>
 <h2> :dash: Esse foi um projeto desenvolvido no <a href="https://aulas.devclub.com.br/m/home">DevClub</a></h2>
 <br>
