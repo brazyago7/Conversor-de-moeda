@@ -20,17 +20,69 @@ body {
 }
 
 main {
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
     border-radius: 20px;
     background-color: #f4f4f4;
     margin: 0 auto 40px;
     padding: 44px 24px 23px;
 }
 
+
+.logo,
+.seta,
+.currency-image,
+.image-from {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 480px) {
+    main {
+        padding: 28px 16px 18px;
+        border-radius: 16px;
+    }
+
+    .logo {
+        width: 220px;
+        margin-top: 16px;
+        margin-bottom: 14px;
+    }
+
+    section {
+        margin-top: 22px;
+        border-radius: 16px;
+    }
+
+    .seta {
+        margin: 10px 0;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+
+    select,
+    input,
+    button {
+        height: 44px;
+        font-size: 16px;
+    }
+
+    .currency-value,
+    .currency-value-to-convert {
+        font-size: 18px;
+    }
+
+}
+
 label {
     color: #777777;
     font-size: 14px;
 }
+
 
 select {
     background: #ffffff;
